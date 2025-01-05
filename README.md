@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+template from: https://github.com/HypeTeqSoftware/FitnessApp
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
