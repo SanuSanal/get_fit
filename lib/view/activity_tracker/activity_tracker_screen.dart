@@ -293,10 +293,10 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
                   ),
                   titlesData: FlTitlesData(
                     show: true,
-                    rightTitles: AxisTitles(
+                    rightTitles: const AxisTitles(
                       sideTitles: SideTitles(showTitles: false),
                     ),
-                    topTitles: AxisTitles(
+                    topTitles: const AxisTitles(
                       sideTitles: SideTitles(showTitles: false),
                     ),
                     bottomTitles: AxisTitles(
@@ -306,7 +306,7 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
                         reservedSize: 38,
                       ),
                     ),
-                    leftTitles: AxisTitles(
+                    leftTitles: const AxisTitles(
                       sideTitles: SideTitles(
                         showTitles: false,
                       ),
@@ -316,7 +316,7 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
                     show: false,
                   ),
                   barGroups: showingGroups(),
-                  gridData: FlGridData(show: false),
+                  gridData: const FlGridData(show: false),
                 )),
               ),
               SizedBox(

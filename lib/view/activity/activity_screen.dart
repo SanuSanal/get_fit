@@ -132,7 +132,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           (LineChartBarData barData, List<int> spotIndexes) {
                         return spotIndexes.map((index) {
                           return TouchedSpotIndicatorData(
-                            FlLine(
+                            const FlLine(
                               color: Colors.transparent,
                             ),
                             FlDotData(
@@ -171,8 +171,8 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     maxY: 110,
                     titlesData: FlTitlesData(
                         show: true,
-                        leftTitles: AxisTitles(),
-                        topTitles: AxisTitles(),
+                        leftTitles: const AxisTitles(),
+                        topTitles: const AxisTitles(),
                         bottomTitles: AxisTitles(
                           sideTitles: bottomTitles,
                         ),
@@ -359,7 +359,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
         color: AppColors.whiteColor,
         barWidth: 4,
         isStrokeCapRound: true,
-        dotData: FlDotData(show: false),
+        dotData: const FlDotData(show: false),
         belowBarData: BarAreaData(show: false),
         spots: const [
           FlSpot(1, 35),
@@ -377,7 +377,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
         color: AppColors.whiteColor.withOpacity(0.5),
         barWidth: 2,
         isStrokeCapRound: true,
-        dotData: FlDotData(show: false),
+        dotData: const FlDotData(show: false),
         belowBarData: BarAreaData(
           show: false,
         ),
